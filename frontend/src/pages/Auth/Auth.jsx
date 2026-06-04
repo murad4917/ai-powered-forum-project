@@ -134,6 +134,7 @@ export default function Auth() {
     <div className={styles.auth}>
       {/* Left: Info Section */}
       <section className={styles.auth__info}>
+        
         <div className={styles.auth__infoContent}>
           <header className={styles.auth__infoHeader}>
             <div
