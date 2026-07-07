@@ -1,0 +1,342 @@
+.settingsContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-primary, #f9fafb);
+  padding: 2rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.settingsWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary, #f7f8f8);
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.settingsSection {
+  background-color: var(--bg-secondary, #ffffff);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sectionHeader h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary, #ffffff);
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.icon {
+  color: var(--primary-color, #3b82f6);
+  flex-shrink: 0;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 500;
+  color: var(--text-primary, #ffffff);
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.formGroup input {
+  padding: 0.75rem;
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--bg-input, #ffffff);
+  color: var(--text-primary, #1f2937);
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: var(--primary-color, #3b82f6);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1)
+}
+
+.formGroup input:disabled {
+  background-color: var(--bg-disabled, #f3f4f6);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Message Styles */
+.message {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message.error {
+  background-color: #fee2e2;
+  color: #7f1d1d;
+  border-left: 4px solid #dc2626;
+}
+
+.message.success {
+  background-color: #dcfce7;
+  color: #166534;
+  border-left: 4px solid #16a34a;
+}
+
+.message svg {
+  flex-shrink: 0;
+}
+
+/* Button Styles */
+.submitButton {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: flex-start;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.submitButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Profile Picture Styles */
+.profilePictureContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.picturePreview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--bg-tertiary, #f3f4f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--border-color, #e5e7eb);
+  transition: border-color 0.3s ease;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholderImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-tertiary, #9ca3af);
+}
+
+.uploadSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.uploadButton {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.uploadButton:hover:not(:disabled) {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.uploadButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.helpText {
+  font-size: 0.85rem;
+  color: var(--text-tertiary, #9ca3af);
+  margin: 0;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+/* Dark Mode Toggle Styles */
+.darkModeToggle {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.toggleDescription {
+  color: var(--text-secondary, #6b7280);
+  margin: 0;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.toggleSwitch input {
+  display: none;
+}
+
+.slider {
+  display: inline-flex;
+  width: 60px;
+  height: 34px;
+  background-color: var(--border-color, #e5e7eb);
+  border-radius: 34px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.slider::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggleSwitch input:checked + .slider {
+  background-color: var(--primary-color, #3b82f6);
+}
+
+.toggleSwitch input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+.toggleStatus {
+  color: var(--text-secondary, #6b7280);
+  margin: 0;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.toggleStatus strong {
+  color: var(--primary-color, #3b82f6);
+}
+
+/* Dark Mode Specific Styles */
+:global(.dark-mode) .settingsContainer {
+  --bg-primary: #1f2937;
+  --bg-secondary: #374151;
+  --bg-tertiary: #4b5563;
+  --bg-input: #4b5563;
+  --bg-disabled: #6b7280;
+  --text-primary: #f3f4f6;
+  --text-secondary: #d1d5db;
+  --text-tertiary: #9ca3af;
+  --border-color: #4b5563;
+  --primary-color: #60a5fa;
+}
+
+:global(.dark-mode) .message.error {
+  background-color: #7f1d1d;
+  color: #fee2e2;
+  border-left-color: #dc2626;
+}
+
+:global(.dark-mode) .message.success {
+  background-color: #166534;
+  color: #dcfce7;
+  border-left-color: #16a34a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .settingsContainer {
+    padding: 1rem;
+  }
+
+  .pageTitle {
+    font-size: 1.75rem;
+  }
+
+  .settingsSection {
+    padding: 1.5rem;
+  }
+
+  .profilePictureContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

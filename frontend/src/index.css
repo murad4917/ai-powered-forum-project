@@ -1,0 +1,364 @@
+/**
+ * Global design tokens and base styles for Evangadi Forum (frontend).
+ *
+ * - Page-specific layout lives in `*.module.css` files next to each component.
+ * - Shared “list empty / loading” patterns live in `src/styles/pageStates.module.css`.
+ * - Layout widths: `--app-content-max` (main column), `--app-prose-max` (wide copy
+ *   blocks), `--app-form-max` (narrow forms). Authenticated pages rely on
+ *   `Layout.module.css` `.layout__mainInner` for the outer cap. Avoid duplicating
+ *   `max-width` on page roots unless a page is outside that shell (e.g. `/`, `/auth`).
+ * - When you add new features, prefer new CSS variables here only if the whole app
+ *   should use them; otherwise keep styles local to the page module.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Primary colors (Orange-based) */
+  --primary: #f97316; /* Tailwind Orange-500 */
+  --primary-hover: #ea580c; /* Tailwind Orange-600 */
+  --primary-light: #ffedd5; /* Tailwind Orange-100 */
+  --primary-dark: #c2410c; /* Tailwind Orange-700 */
+  --primary-container: #ea580c; /* Tailwind Orange-600 */
+
+  /* Secondary colors */
+  --secondary: #475569; /* Slate-600 */
+  --secondary-hover: #334155; /* Slate-700 */
+
+  /* Tertiary colors */
+  --tertiary: #0f172a; /* Slate-900 */
+  --tertiary-container: #1e293b; /* Slate-800 */
+
+  /* Surface colors */
+  --surface: #ffffff;
+  --surface-hover: #f8fafc;
+  --surface-container-low: #f1f5f9;
+  --surface-container-high: #e2e8f0;
+  --surface-container-highest: #cbd5e1;
+
+  /* Text colors */
+  --text-primary: #0f172a; /* Slate-900 */
+  --text-secondary: #334155; /* Slate-700 (darkened for better contrast) */
+  --text-tertiary: #475569; /* Slate-600 (darkened for better contrast) */
+  --text-placeholder: #94a3b8; /* Slate-400 (dimmed for placeholders) */
+  --text-inverse: #ffffff;
+
+  /* Border colors */
+  --border: #e2e8f0;
+  --border-hover: #cbd5e1;
+  --border-focus: #f97316;
+
+  /* Status colors */
+  --success: #10b981;
+  --success-light: #d1fae5;
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+  --error: #ef4444;
+  --error-light: #fee2e2;
+  --info: #3b82f6;
+  --info-light: #dbeafe;
+
+  /* Background colors */
+  --background: #f8fafc;
+  --background-secondary: #f1f5f9;
+
+  /* Shadow values */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-focus: 0 0 0 3px rgba(249, 115, 22, 0.2);
+
+  /* Border radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Spacing scale */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  /* Font stack */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Font sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  /* Font weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 200ms ease-in-out;
+  --transition-slow: 300ms ease-in-out;
+
+  /* App shell: sidebar width and shared horizontal rhythm. */
+  --app-sidebar-width: 17rem;
+  /* Primary content column (Layout main + footer + marketing sections aligned to app). */
+  --app-content-max: 80rem;
+  /* Marketing / explainer columns (auth info panel, success messages). */
+  --app-prose-max: 32rem;
+  /* Narrow forms (auth sign-in card). */
+  --app-form-max: 28rem;
+}
+
+/* Global Resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background-color: var(--background);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--text-placeholder);
+  opacity: 0.4;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: var(--text-placeholder);
+  opacity: 0.4;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-placeholder);
+  opacity: 0.4; /* Reduced opacity for more dim, gray appearance */
+}
+
+/* Global Focus Styles for Inputs and Textareas */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 1px var(--primary) !important;
+  transition: border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+/* Base Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--text-4xl);
+}
+h2 {
+  font-size: var(--text-3xl);
+}
+h3 {
+  font-size: var(--text-2xl);
+}
+h4 {
+  font-size: var(--text-xl);
+}
+h5 {
+  font-size: var(--text-lg);
+}
+h6 {
+  font-size: var(--text-base);
+}
+
+/* ───────────────────────────────────────────────────────────────── */
+/* Dark Mode Styles */
+/* ───────────────────────────────────────────────────────────────── */
+
+.dark-mode {
+  /* Primary colors (adjusted for dark mode) */
+  --primary: #ff9f43; /* Brighter orange for dark backgrounds */
+  --primary-hover: #ffb366; /* Lighter orange hover */
+  --primary-light: #2d1e0a; /* Very dark orange tint */
+  --primary-dark: #e68a1a; /* Darker orange */
+  --primary-container: #ff9f43;
+
+  /* Tertiary colors (dark mode) */
+  --tertiary: #ffffff; /* White headings in dark mode */
+  --tertiary-container: #d1d5db; /* Light gray for containers */
+
+  /* Surface colors (dark mode) */
+  --surface: #1f2937; /* Dark gray background */
+  --surface-hover: #2d3748; /* Slightly lighter gray */
+  --surface-container-low: #374151; /* Medium gray */
+  --surface-container-high: #4b5563; /* Lighter gray for containers */
+  --surface-container-highest: #6b7280; /* Lightest gray */
+
+  /* Text colors (inverted for dark mode) */
+  --text-primary: #ffffff; /* White text */
+  --text-secondary: #d1d5db; /* Medium gray text */
+  --text-tertiary: #9ca3af; /* Dim gray text */
+  --text-placeholder: #6b7280; /* Placeholder text */
+  --text-inverse: #0f172a; /* Dark text for light backgrounds */
+
+  /* Border colors (dark mode) */
+  --border: #4b5563;
+  --border-hover: #6b7280;
+  --border-focus: #ff9f43;
+
+  /* Status colors (adjusted for dark mode) */
+  --success: #10b981;
+  --success-light: #064e3b;
+  --warning: #f59e0b;
+  --warning-light: #78350f;
+  --error: #ef4444;
+  --error-light: #7f1d1d;
+  --info: #60a5fa;
+  --info-light: #0c2d48;
+
+  /* Background colors (dark mode) */
+  --background: #111827; /* Darkest background */
+  --background-secondary: #1f2937; /* Secondary dark background */
+
+  /* Shadow values (adjusted for dark mode) */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5),
+    0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5),
+    0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5),
+    0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  --shadow-focus: 0 0 0 3px rgba(255, 159, 67, 0.2);
+}
+
+.dark-mode body {
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+/* Keep dashboard text BLACK in dark mode */
+.dark-mode .hero__title,
+.dark-mode .hero__subtitle,
+.dark-mode .quickAction__textBox h4,
+.dark-mode .quickAction__textBox p,
+.dark-mode .statCard__label,
+.dark-mode .statCard__value,
+.dark-mode .feed__headerLeft h3,
+.dark-mode .feed__headerLeft p,
+.dark-mode .questionCard__titleText,
+.dark-mode .questionCard__excerptText,
+.dark-mode .statsIntro,
+.dark-mode .loadingSnapshotText {
+  color: inherit !important;
+}
+
+.dark-mode .sidebar,
+.dark-mode .sidebar * {
+  color: var(--text-primary) !important;
+}
+
+/* Landing page dark mode text colors */
+.dark-mode .landing__brandName,
+.dark-mode .landing__title,
+.dark-mode .landing__titleAccent {
+  color: #ffffff !important;
+}
+
+.dark-mode .landing__lead,
+.dark-mode .landing__leadStrong,
+.dark-mode .landing__sectionTitle {
+  color: #ffffff !important;
+}
+
+.dark-mode .landing__navLink,
+.dark-mode .landing__eyebrow,
+.dark-mode .landing p,
+.dark-mode .landing span {
+  color: var(--text-primary) !important;
+}
+
+/* Remove global heading color override for dark mode - let CSS modules handle it */
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: var(--surface-container-low);
+  color: var(--text-primary);
+  border-color: var(--border);
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode select:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 1px var(--primary) !important;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: var(--text-placeholder);
+}
+
+.dark-mode a {
+  color: var(--primary);
+}
+
+.dark-mode a:hover {
+  color: var(--primary-hover);
+}

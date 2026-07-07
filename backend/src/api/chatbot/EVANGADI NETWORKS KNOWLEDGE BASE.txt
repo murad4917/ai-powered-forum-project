@@ -1,0 +1,177 @@
+Evangadi Networks is a network of people who believe in the power of collaboration with a common goal of nurturing one another to grow together.
+Evangadi was founded by Adugna to help people learn coding and reduce economic inequality through empowerment, not handouts.
+Evangadi Tech specializes in assisting small enterprises in navigating the shift to the digital age by offering comprehensive end-to-end services.
+Evangadi Academy is designed to help starters who are just joining the technology field with skill trainings and support to become technology professionals.
+Evangadi believes in meritocracy: when the playing field is level, those who create the most value for society should rise to the top.
+In November 2019, Evangadi launched its full-stack development course, starting from basic computer literacy and adapting it into the Amharic language.
+It took over five years for Evangadi to build a scalable model that truly empowers under-served communities.
+Evangadi has joined over 2500 students worldwide across its programs.
+Evangadi has over 3000 students granted full access to course materials.
+Evangadi has awarded over 700 full scholarships to students from underserved communities.
+Evangadi has received over 10000 applications from students seeking to join its programs.
+Evangadi offers a 30-day free trial for its developer hiring and empowerment services.
+Evangadi headquarters is located in Maryland, USA.
+Evangadi also has an office in Ethiopia.
+Evangadi contact phone number is (202) 386-2702.
+Evangadi support email is support@evangadi.com.
+Evangadi website is https://evangadi.com.
+Evangadi is on Facebook at facebook.com/evangaditech, Instagram at instagram.com/evangaditech, and YouTube.
+Evangadi live class sessions are held on Saturday and Sunday.
+Evangadi group sessions are held on Tuesday and Thursday.
+The May 2026 batch class will start on May 22 at 1:00pm EST with a first-day orientation session.
+Scholarship applications for the May 2026 batch are due on May 6.
+Evangadi provides free scholarship opportunities for 60 students in Ethiopia on every batch.
+Scholarship selection mainly focuses on those who have the least means to afford payments.
+Scholarship opportunities are only for students who live in Ethiopia.
+Evangadi offers 8 professional courses on its platform.
+Evangadi course 'AI Powered Fullstack Application Development' runs for 6 Months and starts on Jul 25th, 2026.
+Evangadi course 'AI Powered Fullstack Application Development' description: Learn to build a AI Powered Application from the ground up, starting with the fundamentals and advancing to the deployment of an enterprise-scale application.
+Evangadi course 'AI Powered Fullstack Application Development' international price is $1600.00 (discounted from $2400.00). 34% discount for one time payment
+Evangadi course 'AWS' runs for 3 Months and starts on Jun 27th, 2026.
+Evangadi course 'AWS' description: Crafted to train participant how to manage cloud infrastructure using Amazon Web Services (AWS).
+Evangadi course 'AWS' international price is $900.00 (discounted from $1200.00). 25% discount for one time payment
+Evangadi course 'Database Administration' runs for 3 Months and starts on Jun 27th, 2026.
+Evangadi course 'Database Administration' description: Designed to equip students with the knowledge and skills necessary to manage and maintain SQL Server 2022 databases.
+Evangadi course 'Database Administration' international price is $900.00 (discounted from $1200.00). 25% discount for one time payment
+Evangadi course 'MuleSoft Development' runs for 3 Months and starts on Jun 27th, 2026.
+Evangadi course 'MuleSoft Development' description: Aims to prepare participants for creating and integrating APIs and applications within the MuleSoft platform.
+Evangadi course 'MuleSoft Development' international price is $900.00 (discounted from $1200.00). 25% discount for one time payment
+Evangadi course 'Power BI' runs for 3 Months and starts on Jun 27th, 2026.
+Evangadi course 'Power BI' description: Focuses on empowering participants to analyze data, create insightful reports, and develop interactive dashboards.
+Evangadi course 'Power BI' international price is $900.00 (discounted from $1200.00). 25% discount for one time payment
+Evangadi course 'SharePoint Development' runs for 3 Months and starts on Jun 27th, 2026.
+Evangadi course 'SharePoint Development' description: Focuses on providing comprehensive understanding and practical skills in SharePoint Development.
+Evangadi course 'SharePoint Development' international price is $900.00 (discounted from $1200.00). 25% discount for one time payment
+Evangadi course 'Software Quality Assurance' runs for 3 Months and starts on Jun 27th, 2026.
+Evangadi course 'Software Quality Assurance' description: Designed to prepare participants for the challenges of ensuring software quality and reliability.
+Evangadi course 'Software Quality Assurance' international price is $900.00 (discounted from $1200.00). 25% discount for one time payment
+Evangadi course 'Fullstack Web Application Development' runs for 6 Months and starts on Jun 21st, 2025.
+Evangadi course 'Fullstack Web Application Development' description: Learn to build a Fullstack Web Application from the ground up, starting with the fundamentals and advancing to the deployment of an enterprise-scale application.
+Evangadi course 'Fullstack Web Application Development' international price is $1800.00 (discounted from $2400.00). 25% discount for one time payment
+Evangadi course 'SharePoint Development' goal: Empower Your Future with Technology.
+Evangadi course 'SharePoint Development' contact: (202) 386 2702.
+Evangadi course 'SharePoint Development' has 3 phases.
+Evangadi SharePoint Development Phase 1: Introduction and Fundamentals of SharePoint
+Evangadi SharePoint Development Phase 1 details: In this phase, the goal is to build a solid foundation in SharePoint fundamentals. Topics will include key SharePoint concepts, document management, security features, and navigation. Learners will gain hands-on experience with SharePoint’s core elements, such as document libraries and permissions.
+Evangadi SharePoint Development Phase 1 covers weeks including: Introduction to SharePoint, SharePoint Document Libraries, SharePoint Pages & Web Parts, Permission and Security.
+Evangadi SharePoint Development Phase 2: Advanced SharePoint Features and Integrations
+Evangadi SharePoint Development Phase 2 details: The second phase delves into more advanced SharePoint features, with a focus on lists, workflows, automation, and integration with external applications. This phase equips students to develop more complex SharePoint environments capable of automating tasks and interacting with other business applications.
+Evangadi SharePoint Development Phase 2 covers weeks including: SharePoint Lists, SharePoint Hub Sites and Integrations, SharePoint Workflows & Automation, Integrations with PowerApps.
+Evangadi SharePoint Development Phase 3: Custom Development and Integration with Power BI
+Evangadi SharePoint Development Phase 3 details: This phase highlights custom development and data analysis within SharePoint, concentrating on advanced SharePoint Framework (SPFx) development and Power BI integration. Learners will create custom solutions using SPFx to enhance SharePoint's functionality while integrating Power BI for comprehensive data analysis and reporting.
+Evangadi SharePoint Development Phase 3 covers weeks including: Integrations with Power BI, Introduction to SharePoint Framework (SPFx) and Setup, Intermediate SPFX Development, SPFx Extensions and Deployment.
+Evangadi course 'MuleSoft Development' goal: Empower Your Future with Technology.
+Evangadi course 'MuleSoft Development' contact: (202) 386 2702.
+Evangadi course 'MuleSoft Development' has 3 phases.
+Evangadi MuleSoft Development Phase 1: Introduction and fundamentals of MuleSoft
+Evangadi MuleSoft Development Phase 1 details: In this phase, learners will establish a strong understanding of MuleSoft and its ecosystem and explore key concepts such as API-led connectivity, Mule ESB integration, and the Anypoint Platform. Setting up development environment, designing APIs with RAML, and implementing SOAP and REST services. You will also gain hands-on experience with API design, publishing APIs to Anypoint Exchange, and understanding Mule events and messages.
+Evangadi MuleSoft Development Phase 1 covers weeks including: Introduction to MuleSoft, Design API specification with RAML, Publishing API specification to Anypoint Exchange and Mule Event, Introduction to Transformation and DataWeave.
+Evangadi MuleSoft Development Phase 2: Advanced Integrations and Error Handling
+Evangadi MuleSoft Development Phase 2 details: In Phase 2, learners will dive into advanced MuleSoft concepts, focusing on DataWeave transformations, validation, and error handling. This phase provides hands-on experience with File and FTP integration, database operations, scope and routing. Learners will also work with MUnit testing, Salesforce integration, and JMS messaging, gaining practical skills in managing complex integrations and ensuring effective error handling.
+Evangadi MuleSoft Development Phase 2 covers weeks including: Introduction to Web Services and API led connectivity, Validation, Error Handling and Flow Type in MuleSoft, File, FTP, Database and Scopes in MuleSoft, MUnit Testing Salesforce and JMS-Integration.
+Evangadi MuleSoft Development Phase 3: Real World Project Development and Deployment
+Evangadi MuleSoft Development Phase 3 details: In Phase 3, learners will focus on developing and deploying real-world API projects, applying best practices for project structure, error handling, and environment-specific configurations. They will gain experience in managing APIs on servers and deploying Mule applications to Cloud Hub using MuleSoft CI/CD with Jenkins and GitHub.
+Evangadi MuleSoft Development Phase 3 covers weeks including: API Development and Property Configuration, API Management with Anypoint Platform, CI/CD with GitHub Action,Mule Domain Projects and Cluster Mule Applications, Real World Integration Project Development and Deployment.
+Evangadi course 'AI Powered Fullstack Application Development' goal: Learn How to Code & Build an Application.
+Evangadi course 'AI Powered Fullstack Application Development' contact: (202) 386 2702.
+Evangadi course 'AI Powered Fullstack Application Development' has 4 phases.
+Evangadi AI Powered Fullstack Application Development Phase 1: Building static websites using HTML, CSS & Bootstrap
+Evangadi AI Powered Fullstack Application Development Phase 1 details: In this phase, you'll learn about the underlying structure of the web - HTML. You'll also learn how to apply styling to a website through CSS. To help you build websites faster and easier, you will learn the Bootstrap framework. Along the way, you'll also learn about VS Code editor and Chrome's Developer Tools.
+Evangadi AI Powered Fullstack Application Development Phase 1 covers weeks including: Before you start the class, Basic Computer Skills, HTML, CSS Week, ..., Project - (Building and launching your own website), Recommended videos to watch.
+Evangadi AI Powered Fullstack Application Development Phase 2: Learn coding with JavaScript
+Evangadi AI Powered Fullstack Application Development Phase 2 details: JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites. In this phase of your course, you will learn programming fundamentals using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment.
+Evangadi AI Powered Fullstack Application Development Phase 2 covers weeks including: Introduction to Programming, Functions and Algorithmic Thinking, Decision Loops and Object Oriented Programming, Algorithm Writing, ..., jQuery and Asynchronous JavaScript, Bonus classes: (Optional).
+Evangadi AI Powered Fullstack Application Development Phase 3: Node, Express, MySql and React.js
+Evangadi AI Powered Fullstack Application Development Phase 3 details: React is a JavaScript library, developed in 2013 by Facebook. It is very popular and used on major sites including on Facebook, Netflix, Khan Academy and many others. In this phase, we will start from the fundamentals and go all the way up to building full applications with custom styling. Along the way, you'll also learn about npm, ES6, Node.js, Express and MySql.
+Evangadi AI Powered Fullstack Application Development Phase 3 covers weeks including: Introduction to Bash Script, Git and Node.js, Node Modules & Web Servers, Working with Databases - MySql, Introduction to React and Functional Components, ..., React States & Hooks, API Integration & React Routing.
+Evangadi AI Powered Fullstack Application Development Phase 4: AI Powered Application Development
+Evangadi AI Powered Fullstack Application Development Phase 4 details: In this phase, you’ll learn how to transform your full-stack applications into an intelligent, AI-powered tool. Along the way, you’ll learn how to structure API requests to AI models, handle responses, manage security, and integrate AI workflows into real-world applications.
+Evangadi AI Powered Fullstack Application Development Phase 4 covers weeks including: Introduction to AI-Powered Application Development, AI-Powered Application Architecture & Building the Chat Bot, Beyond Keywords - The Mathematics of Meaning & Semantic Search, Chat with Your Data - The Power of Retrieval-Augmented Generation (RAG).
+Evangadi course 'Power BI' goal: Empower Your Future with Technology.
+Evangadi course 'Power BI' contact: (202) 386 2702.
+Evangadi course 'Power BI' has 3 phases.
+Evangadi Power BI Phase 1: Comprehensive Power BI Essentials: Data Extraction, Transformation, and Modeling
+Evangadi Power BI Phase 1 details: This course covers the core aspects of Power BI, including extracting data from various sources, transforming it for analysis, and building data models. You'll also learn to enhance the data model with DAX for more powerful insights.
+Evangadi Power BI Phase 1 covers weeks including: Introduction to BI, Power BI, and Data Extraction , Extract, Transform and Load(ETL) in Power BI , Data Modeling Fundamentals , Data Modeling with DAX .
+Evangadi Power BI Phase 2: Data Visualization and Advanced Modeling with Digital Storytelling
+Evangadi Power BI Phase 2 details: This course introduces the fundamentals of data visualization, dives into advanced data modeling techniques, and explores optimization strategies. Additionally, you'll learn how to craft compelling digital stories to communicate insights effectively.
+Evangadi Power BI Phase 2 covers weeks including: Advanced Data Modeling with DAX,  Introduction to Data Visualization, Data visualization, Power BI AI Visuals and Digital Storytelling.
+Evangadi Power BI Phase 3: Power BI Service, Collaboration, and Data Security
+Evangadi Power BI Phase 3 details: This course covers the Power BI Service for seamless collaboration, along with key practices for ensuring data security and privacy. You'll learn how to manage reports, share insights, and protect data within the Power BI environment.
+Evangadi Power BI Phase 3 covers weeks including: Visualization Enhancement and Introduction to Power BI Service, Power BI Service and Power BI Moblie, Introduction to the Power Platform Ecosystem, Power BI Integration with Power Apps and Final Project.
+Evangadi course 'AWS' goal: Empower Your Future with Technology.
+Evangadi course 'AWS' contact: (202) 386 2702.
+Evangadi course 'AWS' has 3 phases.
+Evangadi AWS Phase 1: Fundamentals of Virtualization, Cloud Computing, IAM & EC2 Optimized Architecture
+Evangadi AWS Phase 1 details: In this phase, you’ll explore virtualization and cloud computing fundamentals. You’ll create an AWS management console account, use IAM services, understand EC2 architecture, and deploy a web server. Additionally, you’ll learn to use instance storage and load balancers for high availability and scalability.
+Evangadi AWS Phase 1 covers weeks including: Cloud & Virtualization, AWS - IAM, Elastic Cloud Compute (EC2), Advanced Amazon EC2 Architectures, EC2 Instance Storage, High Availability, Scalability & ELB.
+Evangadi AWS Phase 2: Explore AWS Database Services, DNS, S3 Storage, Edge Locations, Decoupled Architecture, ECS, EKS, and Serverless Computing.
+Evangadi AWS Phase 2 details: In this phase, you’ll explore AWS Database Services with hands-on practice, DNS, and S3 Storage, including practical application sessions. You’ll learn about Edge Locations and Decoupled Architecture, dive into Elastic Container Service (ECS) and Elastic Kubernetes Service (EKS) with practical implementation, and master Serverless Computing in AWS.
+Evangadi AWS Phase 2 covers weeks including: Databases & DNS, S3 Object Storage, AWS Data Mobility, Extra Storage Solutions, CloudFront & AWS-Global-Accelerator, Decoupled Architecture, Containers and Serverless in AWS.
+Evangadi AWS Phase 3: AWS Advanced Solutions: Analytics & ML, Monitoring & Auditing, Disaster Recovery, Cloud Networking, Architecture, and Additional AWS Services.
+Evangadi AWS Phase 3 details: In this phase, you'll learn AWS Analytics and Machine Learning (ML), Monitoring, Auditing, and Disaster Recovery. Additionally, you’ll explore Cloud Networking and Solution Architecture, gaining hands-on experience with various AWS services. Master advanced AWS solutions for comprehensive cloud expertise.
+Evangadi AWS Phase 3 covers weeks including: Analytics and Machine Learning in AWS, Monitoring, Auditing, Disaster Recovery, Migration & NoSQL DB's In AWS, AWS Cloud Networking, AWS Cloud Security, Automation and Other Services.
+Evangadi course 'Fullstack Web Application Development' goal: Learn How to Code & Build an Application.
+Evangadi course 'Fullstack Web Application Development' contact: (202) 386 2702.
+Evangadi course 'Fullstack Web Application Development' has 5 phases.
+Evangadi Fullstack Web Application Development Phase 1: Building static websites using HTML, CSS & Bootstrap
+Evangadi Fullstack Web Application Development Phase 1 details: In this phase, you'll learn about the underlying structure of the web - HTML. You'll also learn how to apply styling to a website through CSS. To help you build websites faster and easier, you will learn the Bootstrap framework. Along the way, you'll also learn about VS Code editor and Chrome's Developer Tools.
+Evangadi Fullstack Web Application Development Phase 1 covers weeks including: Before you start the class, Basic Computer Skills, HTML, CSS Week, ..., Project - (Building and launching your own website), Recommended videos to watch.
+Evangadi Fullstack Web Application Development Phase 2: Learn coding with JavaScript
+Evangadi Fullstack Web Application Development Phase 2 details: JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites. In this phase of your course, you will learn programming fundamentals using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment.
+Evangadi Fullstack Web Application Development Phase 2 covers weeks including: Introduction to Programming, Functions and Algorithmic Thinking, Decision Loops and Object Oriented Programming, Algorithm Writing, ..., jQuery and Asynchronous JavaScript, Bonus classes: (Optional).
+Evangadi Fullstack Web Application Development Phase 3: Node, Express, MySql and React.js
+Evangadi Fullstack Web Application Development Phase 3 details: React is a JavaScript library, developed in 2013 by Facebook. It is very popular and used on major sites including on Facebook, Netflix, Khan Academy and many others. In this phase, we will start from the fundamentals and go all the way up to building full applications with custom styling. Along the way, you'll also learn about npm, ES6, Node.js, Express and MySql.
+Evangadi Fullstack Web Application Development Phase 3 covers weeks including: Introduction to Bash Script, Git and Node.js, Node Modules & Web Servers, Working with Databases - MySql, Introduction to React and Functional Components, ..., React States & Hooks, API Integration & React Routing.
+Evangadi Fullstack Web Application Development Phase 4: The Project Phase - Building Fullstack Applications
+Evangadi Fullstack Web Application Development Phase 4 details: In this crucial phase, we will consolidate your learning by diving into real-world projects, building functional clones of well-known web applications. This phase is designed to give you hands-on experience in fullstack development, integrating both front-end and back-end technologies.
+Evangadi Fullstack Web Application Development Phase 4 covers weeks including: Netflix Clone, Amazon Clone (Frontend), Amazon Clone (Backend), Evangadi Forum (Backend & Frontend).
+Evangadi Fullstack Web Application Development Phase 5: Abe Garage Project - Building Fullstack Application for an auto repair shop.
+Evangadi Fullstack Web Application Development Phase 5 details: In this project, you will build a full- stack web application for an auto repair shop.The application will allow to manage employees, customers, orders and services provided by the shop.We will start from the business development, design the layouts, build the front- end and back - end, and deploy the application to a cloud server.
+Evangadi Fullstack Web Application Development Phase 5 covers weeks including: Sessions I - IV, Sessions V - VII, Sessions VIII - X.
+Evangadi course 'Software Quality Assurance' goal: Empower Your Future with Technology.
+Evangadi course 'Software Quality Assurance' contact: (202) 386 2702.
+Evangadi course 'Software Quality Assurance' has 3 phases.
+Evangadi Software Quality Assurance Phase 1: Basics of Software Testing and Quality Assurance
+Evangadi Software Quality Assurance Phase 1 details: In this phase, you will establish a solid foundation in software testing, covering software quality assurance and testing fundamentals. You will learn Agile testing methodologies, and understand test planning, test case designing, and requirement analysis. Additionally, you will discover how to effectively manage bugs using Jira and TestLink.
+Evangadi Software Quality Assurance Phase 1 covers weeks including: Basics of Software Quality Assurance and Software Testing, Introduction to Agile Testing, Software Testing Fundamentals: Requirement Analysis, Test Planning, and Test Case Designing.
+Evangadi Software Quality Assurance Phase 2: End-to-End Automation with Cypress
+Evangadi Software Quality Assurance Phase 2 details: Cypress is one of the leading automation testing framework which enables efficient End-to-End (E2E) testing for web applications. In this phase, you will leverage Cypress for E2E testing, covering its setup, architecture, and advanced features. This includes writing and running E2E tests, utilizing built-in commands and assertions, automating complex UI interactions and exploiting Cypress fixtures.
+Evangadi Software Quality Assurance Phase 2 covers weeks including: Getting Started with Web Automation Testing Using Cypress, Cypress Automation Testing Essentials, Advanced Automation Techniques with Cypress Part 1, Advanced Automation Techniques with Cypress Part 2.
+Evangadi Software Quality Assurance Phase 3: Comprehensive Testing & Optimization
+Evangadi Software Quality Assurance Phase 3 details: You will explore the art of comprehensive testing and optimization in this phase, focusing on React component testing with Cypress, API testing with Postman, and performance optimization techniques.
+Evangadi Software Quality Assurance Phase 3 covers weeks including: Unit Testing React Applications with Jest, Application Programming Interface Testing with Postman, Performance Testing with K6, QA Capstone Project .
+Evangadi course 'Database Administration' goal: Empower Your Future with Technology.
+Evangadi course 'Database Administration' contact: (202) 386 2702.
+Evangadi course 'Database Administration' has 3 phases.
+Evangadi Database Administration Phase 1: Introduction to SQL Server and Databases
+Evangadi Database Administration Phase 1 details: In this phase, you'll get introduced to SQL Server, learning about its structure and role in managing data. You'll also explore the fundamentals of relational databases and understand how they work through the Relational Database Management System (RDBMS) framework. Along the way, you'll perform basic administrative tasks, set up databases, and get hands-on experience with SQL Server. By the end of this phase, you'll have a solid foundation to manage and configure a SQL Server environment.
+Evangadi Database Administration Phase 1 covers weeks including: Introduction to SQL Server and Databases week, Introduction to SQL Commands week, Mastering SQL Clauses and operators week, Advanced Techniques for SQL Data Manipulation and Management week.
+Evangadi Database Administration Phase 2: Mastering SQL Server Reporting and Integration Services (SSRS & SSIS)
+Evangadi Database Administration Phase 2 details: In this phase, you'll master SQL Server Reporting Services (SSRS) and SQL Server Integration Services (SSIS). In SSRS, you'll learn to create and enhance reports, using advanced features like subreports, drilldown, drillthrough, dynamic sorting, and report deployment. In SSIS, you'll focus on automating data flows with transformations, such as moving data between flat files, Excel, and OLDB, while optimizing performance and managing workflows through control flow tasks. By the end, you'll be proficient in building reports and automating data processes with SSRS and SSIS.
+Evangadi Database Administration Phase 2 covers weeks including: SSRS Introduction and Report Creation, Advanced Reporting Techniques in SSRS, Introduction to SQL Server Integration Services (SSIS), Advanced Data Flow and Control Flow in SSIS.
+Evangadi Database Administration Phase 3: Mastering SQL Server Database Administration
+Evangadi Database Administration Phase 3 details: In this phase, you'll learn to manage SQL Server instances, perform backups and restores, automate tasks, and configure security. You'll also explore high availability, disaster recovery, and performance tuning using SQL Server Management Studio (SSMS).
+Evangadi Database Administration Phase 3 covers weeks including: SQL Server Environment Setup and Backup Configuration, Automation & Security, Database Migration and High Availability/Disaster Recovery (HA/DR), Mastering Performance Tuning and Monitoring in SQL Server.
+Evangadi Empower program offers Hire and Empower Bundle: for every developer you hire, Evangadi teaches a class of 50 students in your company's name.
+Evangadi Empower offers Dual Developer Advantage: get two developers for the price of one.
+Evangadi Empower offers CSR Outsourcing: let Evangadi handle your corporate social responsibility initiatives.
+Evangadi graduates undergo extensive training in full-stack application development and can contribute immediately without retraining.
+Evangadi offers zero replacement fee: if you are not satisfied with a developer, Evangadi replaces them at no extra cost.
+Evangadi charges no recruitment fees for its developer placement service.
+Evangadi Learn Grow Win challenge motto: Learn new skills, Grow with knowledge, and Win in life.
+Evangadi youth empowerment teaches digital literacy including operating systems and basic software.
+Evangadi youth program encourages basic coding and technical skills with kid-friendly programming languages.
+Evangadi youth program fosters critical thinking through puzzles, strategy games, and STEM projects.
+Evangadi teaches version control with Git for managing code changes and team collaboration.
+Evangadi teaches industry standards for writing clean, readable, and maintainable code.
+Evangadi teaches collaboration, code review, and project management tools like Jira, Trello, and Asana.
+Evangadi teaches agile methodologies and soft skills like time management and proactive communication.
+Evangadi team members include Nikodimos Elias, Khalid Mohammed, Aschalew Gashaw, and Yemsrach Tamrat.
+Evangadi FAQ: If you are looking to register or have questions, call Evangadi and they will guide you on next steps.
+Evangadi FAQ: Where do I start? Everything starts by learning basic computer skills including operating systems and basic software.
+Evangadi FAQ: Do you think I am capable to learn coding? Evangadi believes anyone committed to learning can succeed with the right support.
+Evangadi FAQ: How can I apply? Reach out via phone or email to register and ask questions.
+Evangadi FAQ: When can I start sending my application? Check the current batch dates on evangadi.com for application deadlines.
+Evangadi pricing offers Class Access (live sessions) and Material Access Only options for inside and outside Ethiopia.
+Evangadi students can choose One-Time Payment pricing plans based on location and learning style.

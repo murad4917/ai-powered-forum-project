@@ -1,0 +1,329 @@
+/* ─── Framework Layouts ─────────────────────────────────────────────── */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  width: 100%;
+}
+
+/* ─── Shared Base Module Panels ─────────────────────────────────────── */
+.heroCard,
+.feedCardContainer {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01);
+}
+
+.hero__label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ea580c;
+  margin-bottom: 0.5rem;
+}
+
+.hero__title {
+  font-size: 2.15rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.hero__subtitle {
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  max-width: 44rem;
+  margin-bottom: 2rem;
+}
+
+/* ─── Quick Navigation Rows Deck ─────────────────────────────────────── */
+.quickActionsGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 2rem;
+}
+
+.quickActionCard {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+  padding: 1.25rem;
+  /* background-color: #f9fafb; */
+  background-color: #F0F4F8; 
+  border: 1px solid #f3f4f6;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.quickActionCard:hover {
+  background-color: #f3f4f6; 
+  border-color: #e5e7eb;
+}
+
+.quickAction__iconBox {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  border-radius: 6px;
+  border: 1px solid #ffedd5;
+  background-color: #fff7ed;
+  color: #ea580c;
+}
+
+.quickAction__textBox h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 0.25rem 0;
+}
+
+.quickAction__textBox p {
+  color: #6b7280;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* ─── Separation Dividers ───────────────────────────────────────────── */
+.divider {
+  border: none;
+  border-top: 1px solid #f3f4f6;
+  margin: 0 0 1.25rem 0;
+}
+
+.statsIntro,
+.loadingSnapshotText {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 1.25rem;
+}
+
+/* ─── Metric Card Groups ────────────────────────────────────────────── */
+.statsRowGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.statCard {
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #f3f4f6;
+  background-color: #f9fafb;
+}
+
+.statCard__label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #9ca3af;
+  margin-bottom: 0.35rem;
+}
+
+.statCard__value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+/* ─── Discussion Layout Panels ──────────────────────────────────────── */
+.feed__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.feed__headerLeft h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.25rem 0;
+}
+
+.feed__headerLeft p {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.feed__badge {
+  background-color: #f97316;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 0.85rem;
+  border-radius: 4px;
+}
+
+/* ─── Live Thread Iterations ───────────────────────────────────────── */
+.questionsStackList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.questionCardItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #f3f4f6;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+.questionCardItem:hover {
+  border-color: #cbd5e1;
+}
+
+.questionCardItem--mine {
+  border-left: 4px solid #f97316;
+  padding-left: 1.25rem;
+}
+
+.questionCard__avatar {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.questionCard__bodyBlock {
+  flex: 1;
+  min-width: 0;
+}
+
+.questionCard__titleFlexRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.questionCard__titleText {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.questionCard__yoursBadgeItem {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #ea580c;
+  background-color: #fff7ed;
+  border: 1px solid #ffedd5;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.questionCard__excerptText {
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0.25rem 0 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.questionCard__metaRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.775rem;
+  color: #94a3b8;
+  line-height: 1.4;
+}
+
+/* ─── State Container Boxes ────────────────────────────────────────── */
+.loadingFeedWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 1rem;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.emptyBoxWrapper,
+.errorBoxWrapper {
+  display: grid;
+  place-items: center;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+.emptyBoxInner {
+  border: 1px dashed #cbd5e1;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 4.5rem 2rem;
+  color: #475569;
+  font-size: 0.875rem;
+  text-align: center;
+  width: 100%;
+}
+
+.errorBoxInner {
+  border: 1px solid #fca5a5;
+  background-color: #fef2f2;
+  border-radius: 8px;
+  padding: 4.5rem 2rem;
+  color: #dc2626;
+  font-size: 0.875rem;
+  text-align: center;
+  width: 30%;
+}
+
+/* ─── Media Query Breaks ───────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .quickActionsGrid {
+    grid-template-columns: 1fr;
+  }
+  .statsRowGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heroCard,
+  .feedCardContainer {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .statsRowGrid {
+    grid-template-columns: 1fr;
+  }
+  .feed__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
